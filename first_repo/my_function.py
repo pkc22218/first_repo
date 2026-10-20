@@ -19,6 +19,7 @@ def daily_greeting():
         print("Good evening!")
 
 def angel_greeting(weather):
+     """Give a cheerful activity suggestion based on the weather."""
     if weather == "sunny":
         print("Perfect day for outing!")
     elif weather == "rainy":

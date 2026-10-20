@@ -24,5 +24,6 @@ def angel_greeting(weather):
         print("Perfect day for outing!")
     elif weather == "rainy":
         print("Stay in the library and study D100 and D400!")
+        pass
     else:
         print("Welcome to unpredictable British weather!")

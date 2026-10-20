@@ -17,3 +17,13 @@ def daily_greeting():
         print("Good afternoon!")
     else:
         print("Good evening!")
+
+def angel_greeting(weather):
+     """Give a cheerful activity suggestion based on the weather."""
+    if weather == "sunny":
+        print("Perfect day for outing!")
+    elif weather == "rainy":
+        print("Stay in the library and study D100 and D400!")
+        pass
+    else:
+        print("Welcome to unpredictable British weather!")
